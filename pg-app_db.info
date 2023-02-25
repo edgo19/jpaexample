@@ -1,0 +1,6 @@
+
+DB=app_db
+user=app1
+passw=AppPassword
+
+kubectl port-forward --namespace default svc/postgresql-dev 5432:5432
